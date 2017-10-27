@@ -1,0 +1,40 @@
+.portfolio-link{
+    color: #4EF1F2;
+}
+
+.portfolio-container{
+    margin: 120px auto;
+    width: 1000px;
+    height: 900px;
+    position: relative;
+    
+}
+
+.artwork-row{
+    width: 800px;
+   position: absolute;
+   top: 10px;
+   left: 13%;
+    
+}
+
+.design-row{
+    width: 800px;
+    position: absolute;
+    top: 570px;
+    left: 13%;
+}
+
+.artwork-thumbs{
+    width: 15%;
+    margin: 10px;
+}
+
+.design-thumbs{
+    width:15%;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}

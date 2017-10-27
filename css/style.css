@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* universal */
+body{
+	margin: 0 auto;
+	background-color:#071f56;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+li{
+	display: inline-block;
+}
+.saira{
+    font-family: 'Saira Extra Condensed', 'Roboto', sans-serif;
+}
+
+.light-blue{
+	color:#4EF1F2;
+}
+
+.dark-blue{
+	color:#071f56;
+}
+
+.dark-gray{
+	color:#3a485e;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+.line-spacing{
+	line-height: 20px;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+/*Universal Ends*/
+
+/*Header Starts*/
+
+.main-nav{
+	background-color: #6224a5;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+    font-size: 20px;
+
+}
+
+.logo{
+	width: 440px;
+	height: 100px;
+	position: relative;
+	padding: 10px 0 0 0;
+}
+
+.nav-links{
+	position: absolute;
+	left: 480px;
+	top: 28px;
+	padding-left: 0px;
+	word-spacing: 20px;
+}
+
+.link{
+	color: #f7811b;
+	text-decoration: none;
+}
+
+.link:hover{
+	color:#E8BEE3;
+
+}
+/*Header Ends*/
+
+/*Hero Starts*/
+.hero{
+	height: 500px;
+	background-image: url(../images/city-night.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.hero-content{
+    background-color: rgba(8, 33, 85, 0.75);
+	width:600px;
+	position: absolute;
+	left: 27%;
+	top: 47%;
+	padding: 10px;
+	transform-origin: 310px 125px;
+	border: solid 2px #4EF1F2;
+}
+
+.hero-paragraph{
+	text-align: center;
+	color:#4EF1F2;
+}
+
+/*Hero Ends*/
+
+/*Content Starts*/
+
+.content-home{
+	background-color:#071f56;
+	position: relative;
+	height: 700px;
+}
+
+.home-column-1{
+	position: absolute;
+	width: 400px;
+	left: 20%;
+	margin-top: 40px;
+}
+
+.home-column-2{
+	position: absolute;
+	height: 670px;
+	left: 50%;
+	margin-top: 57px;
+}
+
+.home-column-2-image{
+	height: 560px;
+}
+/*Content Ends*/
+
+/*Footer Starts*/
+
+.footer-main{
+	background-color:#E8BEE3;
+	position: relative;
+	height: 100px;
+	width: 100%;
+}
+
+.social-media{
+	margin-top: 0;
+	position: absolute;
+	left: 47%;
+	word-spacing:10px;
+	top:10%;
+}
+
+.copy-right{
+	position: absolute;
+	top: 40%;
+	left: 46%;
+	text-align: center;
+}
+
+.fa:hover{
+	color:#f7811b;
+
+}
+
+/*Footer Ends*/
